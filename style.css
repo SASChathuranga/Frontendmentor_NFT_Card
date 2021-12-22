@@ -7,6 +7,7 @@
 
 body {
     background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -27,4 +28,52 @@ body {
     height: 275px;
     border-radius: 5px;
     background-size: auto;
+}
+
+.header-txt {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.para {
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.second-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.eth {
+    display: flex;
+}
+
+.txt-eth {
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    margin-left: 10px;
+}
+
+.txt-day {
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+}
+
+.time {
+    display: flex;
+}
+
+hr {
+    opacity: 0.3;
+    color: hsl(215, 51%, 70%);
 }
