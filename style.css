@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 325px;
-    height: 525px;
+    height: 550px;
     padding: 20px;
     background-color: hsl(216, 50%, 16%);
     position: absolute;
@@ -64,7 +64,7 @@ body {
 
 .txt-day {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     color: hsl(215, 51%, 70%);
     margin-left: 10px;
 }
@@ -76,4 +76,29 @@ body {
 hr {
     opacity: 0.3;
     color: hsl(215, 51%, 70%);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.creator span {
+    color: white;
+    font-weight: 300;
 }
